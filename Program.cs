@@ -10,7 +10,7 @@ namespace WordGenerator
 		static void Main(string[] args)
 		{
 
-			string filePath = "C:\\Users\\Jellis\\source\\repos\\WordGenerator\\Data\\input.txt";
+			string filePath = "..\\..\\..\\Data\\input.txt";
 			HashSet<string> data = new HashSet<string>(File.ReadAllLines(filePath));
 			List<string> fullWords = new List<string>();
 			List<string> halves = new List<string>();
